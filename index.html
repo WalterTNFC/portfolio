@@ -12,14 +12,14 @@
     <title>Walter Frazão</title>
 </head>
 <body>
-    <div class="caixa-principal">
+    <div class="caixa-principal" id="home">
         <nav>
             <h2 class="portfolio">Portfó<span>lio</span></h2>
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Projetos</a></li>
-                <li><a>Fale comigo</a></li>
+                <li><a clas="link-menu" href="#home">Home</a></li>
+                <li><a clas="link-menu" href="#sobre">Sobre</a></li>
+                <li><a clas="link-menu" href="#projetos-id">Projetos</a></li>
+                <li><a clas="link-menu" href="#fale-comigo">Fale comigo</a></li>
             </ul>
         </nav>
         
@@ -29,7 +29,7 @@
         </div>
     </div>
 
-    <section>
+    <section id="sobre">
         <img src="./img/myPhoto.png">
         <div>
             <h2>Sobre mim</h2>
@@ -40,5 +40,39 @@
             <button>Entre em contato</button>
         </div>
     </section>
+
+    <div class="projetos" id="projetos-id">
+        <h2>Principais Projetos</h2>
+        <div class="card-projetos">
+            <div class="card">
+                <img src="./img/logo-chapeu-mario.png">
+                <h5>Projeto Mário</h5>
+                <p>Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares.</p>
+                <a href="https://waltertnfc.github.io/project-mario/" target="_blank">Ver Projetos</a>
+            </div>
+
+            <div class="card">
+                <img src="./img/starbucks.png">
+                <h5>Mais projetos em breve...</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil eligendi molestias.</p>
+                <a>Ver Projetos</a>
+            </div>
+
+            <div class="card">
+                <img src="./img/crono.png">
+                <h5>Mais projetos em breve...</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil eligendi molestias..</p>
+                <a>Ver Projetos</a>
+            </div>
+        </div>
+    </div>
+    <footer id="fale-comigo">
+        <h5>Walter Frazão</h5>
+        <p>Para mais informações</p>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/walter-tadeu-neves-da-costa/" target="_blanck"><img src="./img/linkedin.png"></a>
+            <a href="https://github.com/WalterTNFC" target="_blanck"><img src="./img/githubLogo.png"></a>
+        </div>
+    </footer>
 </body>
 </html>
